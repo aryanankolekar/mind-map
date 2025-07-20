@@ -1,0 +1,12 @@
+Flask
+flask-cors
+transformers
+torch
+sentencepiece
+PyMuPDF
+pytesseract
+pdf2image
+Pillow
+python-docx
+pytube
+uuid

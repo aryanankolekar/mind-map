@@ -1,0 +1,253 @@
+/* Core Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+  color: #333;
+  padding: 1rem;
+}
+
+body.dark {
+  background-color: #141416;
+  color: #f7f7fa;
+}
+
+/* Cards */
+.content {
+  background-color: white;
+  border-radius: 16px;
+  padding: 1rem 1.5rem;
+  max-width: 800px;
+  margin: 1.5rem auto;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+body.dark .content {
+  background-color: #23232a;
+  color: #f7f7fa;
+}
+
+/* Upload Toggle & Inputs */
+.upload-card-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.upload-input {
+  padding: 0.4rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 999px;
+  font-size: 0.95rem;
+}
+
+.upload-btn {
+  background-color: #111;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 0.5rem 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.upload-btn:hover {
+  background-color: #444;
+}
+
+/* On/Off Toggle */
+.onoff-toggle {
+  width: 90px;
+  height: 30px;
+  background: #eee;
+  border-radius: 999px;
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.onoff-slider {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 42px;
+  height: 26px;
+  background: #111;
+  border-radius: 999px;
+  transition: left 0.3s;
+}
+
+.onoff-label {
+  flex: 1;
+  text-align: center;
+  z-index: 2;
+  line-height: 30px;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.onoff-toggle.file-active .file-label {
+  color: #fff;
+}
+
+.onoff-toggle.link-active .link-label {
+  color: #fff;
+}
+
+body.dark .upload-input,
+body.dark .upload-btn {
+  background: #23232a;
+  color: #f7f7fa;
+  border-color: #444;
+}
+
+/* Quick Note */
+.quick-capture textarea {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border-radius: 16px;
+  border: 1px solid #ccc;
+  resize: none;
+  margin-bottom: 0.5rem;
+}
+
+.quick-capture button {
+  border-radius: 999px;
+  padding: 0.5rem 1.1rem;
+  font-weight: bold;
+  border: none;
+  background: #111;
+  color: white;
+  cursor: pointer;
+}
+
+.quick-capture button:hover {
+  background: #444;
+}
+
+/* Collapsible Sections */
+.collapsible-section {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.7s ease;
+}
+
+.collapsible-section.active {
+  opacity: 1;
+  visibility: visible;
+  max-height: 500px;
+}
+
+/* Graph Container */
+#graph-container {
+  background: #f0f0f0;
+  height: 400px;
+  border-radius: 16px;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fullscreen-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.fullscreen-btn:hover {
+  background: #111;
+  color: white;
+}
+
+/* ------------------- NEW FEATURES ------------------ */
+
+/* Resource Library */
+#resourceList {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+#resourceList li {
+  background: #f9f9f9;
+  padding: 0.9rem 1.2rem;
+  border-radius: 12px;
+  margin-bottom: 0.8rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+}
+
+body.dark #resourceList li {
+  background: #1d1d1f;
+}
+
+/* Revision Tracker */
+#revisionList {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+#revisionList li {
+  background: #fff0f0;
+  padding: 0.9rem 1.2rem;
+  border-radius: 12px;
+  margin-bottom: 0.8rem;
+  border-left: 4px solid crimson;
+}
+
+body.dark #revisionList li {
+  background: #2a1e1e;
+  border-color: #ff6666;
+}
+
+/* Filters */
+#resourceFilters {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+#searchInput,
+#tagFilter {
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+  border-radius: 999px;
+  border: 1px solid #ccc;
+  min-width: 180px;
+}
+
+body.dark #searchInput,
+body.dark #tagFilter {
+  background: #2a2a2a;
+  border-color: #444;
+  color: white;
+}
+
+/* Buttons */
+button {
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}

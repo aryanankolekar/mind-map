@@ -1,0 +1,223 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "topic",
+      "id": "General"
+    },
+    {
+      "type": "subtopic",
+      "id": "N/A"
+    },
+    {
+      "type": "chunk",
+      "summary": "This video was brought to you by IND dentle IO learning python Made Simple. In this video we're going to be covering 10 python Concepts that you should know about.",
+      "id": "This video was brought to you by IND dentle IO learning python Made Simple"
+    },
+    {
+      "type": "chunk",
+      "summary": "In Python we have many data types and the basic data types are integers floats strings. An integer is any whole number while a float is any decimal number. A string is anything that's inside quotes and that can be either single quotes or double quotes.",
+      "id": "In Python we have many data types and the basic data types are integers floats strings"
+    },
+    {
+      "type": "chunk",
+      "summary": "An integer is any whole number while a float is any decimal number a string is anything that's inside quotes and it just represents text while a Boolean is used to represent two states either true or false then we have lists which can contain an arbitrary amount of elements so in case you have a grocery list or a list of names we have a way of handling that kind of data after we have tuples which are a lot like lists except they are immutable.",
+      "id": "An integer is any whole number while a float is any decimal number a string is anything that's inside quotes and it just represents text while a Boolean is used to represent two states either true or false then we have lists which can contain an arbitrary amount of elements so in case you have a grocery list or a list of names we have a way of handling that kind of data after we have tuples which are a lot like lists except they are immutable"
+    },
+    {
+      "type": "chunk",
+      "summary": "In Python we have the option to use type annotations type annotations are completely optional. These Warnings become a lifesaver because as programmers we are bound to make mistakes eventually.",
+      "id": "In Python we have the option to use type annotations type annotations are completely optional"
+    },
+    {
+      "type": "chunk",
+      "summary": " type annotations do nothing in terms of how the program executes they are just a tool for the developer. is going to give us a warning that we did not pass in the right type and when your code gets more and more complex These Warnings become a lifesaver because as programmers we are bound to make mistakes eventually.",
+      "id": " type annotations do nothing in terms of how the program executes they are just a tool for the developer"
+    },
+    {
+      "type": "chunk",
+      "summary": " type annotations are just a tool for the developer. They do not prevent you from making terrible mistakes but they warn you that you're about to make a mistake. You can use type annotations along with the caps lock naming convention to show that it is a constant.",
+      "id": " type annotations are just a tool for the developer"
+    },
+    {
+      "type": "chunk",
+      "summary": "In Python you can import from typing the final type. You can then tell python using type annotations that we are creating a constant for example we might have a version number of type final of type string. Even without the type annotation you will know it's a constant by the use of uppercase characters.",
+      "id": "In Python you can import from typing the final type"
+    },
+    {
+      "type": "chunk",
+      "summary": "Next we're going to be looking at how we can create reusable code in Python. To get started I'm going to import from datetime the date and time. which will be of type final of float and that can be 3.1415.",
+      "id": "Next we're going to be looking at how we can create reusable code in Python"
+    },
+    {
+      "type": "chunk",
+      "summary": "In Python to create a function we use the dev keyword so here we can type in show date and this is going to return none and then all we need to do is indent this code inside the function since python uses uses significant indentation for its code blocks. Now thanks to that we can just type inshow date and duplicate that and no matter how many times we use this function it's always going to come from the same source.",
+      "id": "In Python to create a function we use the dev keyword so here we can type in show date and this is going to return none and then all we need to do is indent this code inside the function since python uses uses significant indentation for its code blocks"
+    },
+    {
+      "type": "chunk",
+      "summary": " functions can even return results for example we might have a function called add that takes a of type float and B oftype float because we want to add these two. going to come from the same source which means now we can type in this is the current date and remove the last bit and it will update everywhere we use this function.",
+      "id": " functions can even return results for example we might have a function called add that takes a of type float and B oftype float because we want to add these two"
+    },
+    {
+      "type": "chunk",
+      "summary": " functions can even return results for example. of hello and the next time we run this we will get two outputs with that update. If your function doesn't return anything for example if you're just printing hello you can explicitly say that you are returning none.",
+      "id": " functions can even return results for example"
+    },
+    {
+      "type": "chunk",
+      "summary": "In Python to define a class we use the class keyword followed by a name starting with an uppercase character and this is how you would create a class now obviously it would be much more useful if this class could do something because all we did is insert an ellipses as a placeholder so what we're going to do instead of that is Define an initializer and an initializers is used to set up an instance of the class.",
+      "id": "In Python to define a class we use the class keyword followed by a name starting with an uppercase character and this is how you would create a class now obviously it would be much more useful if this class could do something because all we did is insert an ellipses as a placeholder so what we're going to do instead of that is Define an initializer and an initializers is used to set up an instance of the class"
+    },
+    {
+      "type": "chunk",
+      "summary": "An initializer is used to set up an instance of the class which means we're going to create an object from this class using some specific information. The specific information we want to use use for each one of these cars in this class is what color the car should be.",
+      "id": "An initializer is used to set up an instance of the class which means we're going to create an object from this class using some specific information"
+    },
+    {
+      "type": "chunk",
+      "summary": "The class was just the blueprint for how that car should look. With that blueprint we can create several cars and it just simplifies that process. Instead of having a Volvo or in addition we could also have another car called BMW which would be blue.",
+      "id": "The class was just the blueprint for how that car should look"
+    },
+    {
+      "type": "chunk",
+      "summary": " classes simplify the process of creating objects or code that has to be duplicated a lot. Instead of cola I'm going to change this to brand and the brand for Volvo is obviously going to be Volvo anyway with this we can actually go down inside our class and Define a function.",
+      "id": " classes simplify the process of creating objects or code that has to be duplicated a lot"
+    },
+    {
+      "type": "chunk",
+      "summary": "Self refers to the instance of the class so here we have a Volvo and we are referring to its attributes so in other words self is the Volvo. If we had a BMW self would be the BMW and that's going to be our entire class.",
+      "id": "Self refers to the instance of the class so here we have a Volvo and we are referring to its attributes so in other words self is the Volvo"
+    },
+    {
+      "type": "chunk",
+      "summary": "The Volvo. class with some attributes and some methods so with that we can type in Volvo. do drive and Volvo do get info these are methods that we. can use on that that instance. This can be used with any object of this class so if we were to have a BMW once again which will be of type car and that was to be BMW with the 240 horsepower we can now drive that BMW.",
+      "id": "The Volvo"
+    },
+    {
+      "type": "chunk",
+      "summary": "The final concept I want to talk about in this video is the concept of Dunder methods. We're still going to have our Volvo car for this but we're going to show you that if we were to print Volvo as it is what we'regoing to get back is a car object which is located at this memory address.",
+      "id": "The final concept I want to talk about in this video is the concept of Dunder methods"
+    },
+    {
+      "type": "chunk",
+      "summary": "A Dunder method is just a double uncore method so here we're going to define the string Dunder. method and this is going to return a string so what we'regoing to do is return the F string of self. brand and self. horsepower HP.",
+      "id": "A Dunder method is just a double uncore method so here we're going to define the string Dunder"
+    },
+    {
+      "type": "chunk",
+      "summary": "A d method would be if we wanted to add cars together we could use the add Dunder method. If you actually want your code Editor to give you suggestions for this you would have to annotate this as self which can be imported from the typing module.",
+      "id": "A d method would be if we wanted to add cars together we could use the add Dunder method"
+    },
+    {
+      "type": "chunk",
+      "summary": "Python's not going to know how to handle this because it does not define the add Dunder method and it actually wants you about that so you can choose to Define that in your class and then it will work properly. There are a lot of Dunder methods worth researching because obviously maybe in the future you will want to multiply cars.",
+      "id": "Python's not going to know how to handle this because it does not define the add Dunder method and it actually wants you about that so you can choose to Define that in your class and then it will work properly"
+    },
+    {
+      "type": "chunk",
+      "summary": "Those were 10 python Concepts that are quite important and this video was just an introduction to them. I still recommend you study these Concepts more thoroughly do some more research online watch some other YouTube videos regarding them but otherwise it should have been a great starting point for how the concepts in Python actually work.",
+      "id": "Those were 10 python Concepts that are quite important and this video was just an introduction to them"
+    }
+  ],
+  "links": [
+    {
+      "source": "General",
+      "target": "General"
+    },
+    {
+      "source": "General",
+      "target": "N/A"
+    },
+    {
+      "source": "N/A",
+      "target": "This video was brought to you by IND dentle IO learning python Made Simple"
+    },
+    {
+      "source": "N/A",
+      "target": "In Python we have many data types and the basic data types are integers floats strings"
+    },
+    {
+      "source": "N/A",
+      "target": "An integer is any whole number while a float is any decimal number a string is anything that's inside quotes and it just represents text while a Boolean is used to represent two states either true or false then we have lists which can contain an arbitrary amount of elements so in case you have a grocery list or a list of names we have a way of handling that kind of data after we have tuples which are a lot like lists except they are immutable"
+    },
+    {
+      "source": "N/A",
+      "target": "In Python we have the option to use type annotations type annotations are completely optional"
+    },
+    {
+      "source": "N/A",
+      "target": " type annotations do nothing in terms of how the program executes they are just a tool for the developer"
+    },
+    {
+      "source": "N/A",
+      "target": " type annotations are just a tool for the developer"
+    },
+    {
+      "source": "N/A",
+      "target": "In Python you can import from typing the final type"
+    },
+    {
+      "source": "N/A",
+      "target": "Next we're going to be looking at how we can create reusable code in Python"
+    },
+    {
+      "source": "N/A",
+      "target": "In Python to create a function we use the dev keyword so here we can type in show date and this is going to return none and then all we need to do is indent this code inside the function since python uses uses significant indentation for its code blocks"
+    },
+    {
+      "source": "N/A",
+      "target": " functions can even return results for example we might have a function called add that takes a of type float and B oftype float because we want to add these two"
+    },
+    {
+      "source": "N/A",
+      "target": " functions can even return results for example"
+    },
+    {
+      "source": "N/A",
+      "target": "In Python to define a class we use the class keyword followed by a name starting with an uppercase character and this is how you would create a class now obviously it would be much more useful if this class could do something because all we did is insert an ellipses as a placeholder so what we're going to do instead of that is Define an initializer and an initializers is used to set up an instance of the class"
+    },
+    {
+      "source": "N/A",
+      "target": "An initializer is used to set up an instance of the class which means we're going to create an object from this class using some specific information"
+    },
+    {
+      "source": "N/A",
+      "target": "The class was just the blueprint for how that car should look"
+    },
+    {
+      "source": "N/A",
+      "target": " classes simplify the process of creating objects or code that has to be duplicated a lot"
+    },
+    {
+      "source": "N/A",
+      "target": "Self refers to the instance of the class so here we have a Volvo and we are referring to its attributes so in other words self is the Volvo"
+    },
+    {
+      "source": "N/A",
+      "target": "The Volvo"
+    },
+    {
+      "source": "N/A",
+      "target": "The final concept I want to talk about in this video is the concept of Dunder methods"
+    },
+    {
+      "source": "N/A",
+      "target": "A Dunder method is just a double uncore method so here we're going to define the string Dunder"
+    },
+    {
+      "source": "N/A",
+      "target": "A d method would be if we wanted to add cars together we could use the add Dunder method"
+    },
+    {
+      "source": "N/A",
+      "target": "Python's not going to know how to handle this because it does not define the add Dunder method and it actually wants you about that so you can choose to Define that in your class and then it will work properly"
+    },
+    {
+      "source": "N/A",
+      "target": "Those were 10 python Concepts that are quite important and this video was just an introduction to them"
+    }
+  ]
+}
